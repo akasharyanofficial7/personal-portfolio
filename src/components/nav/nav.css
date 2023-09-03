@@ -1,0 +1,30 @@
+/* Assuming this is the style for a navigation menu */
+nav {
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(10px);
+  }
+  
+  nav a {
+    /* background: transparent; */
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-dark);
+    font-size: 1rem;
+    
+  }
+  
+  nav a.active {
+   
+    color: #4db5ff;  
+    background-color: #fff;  
+  }
+

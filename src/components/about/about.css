@@ -1,0 +1,159 @@
+.about_container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about_me {
+  width: 80%;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+  display: grid;
+  place-items: center;
+
+}
+
+.about_me-image {
+  border-radius: 3rem;
+  overflow: hidden;
+  transform: rotate(1deg);
+  transition: var(--transition);
+  width: 70%;
+}
+
+.about_me-image:hover {
+  transform: rotate(0);
+}
+
+
+
+
+.about_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.0rem;
+}
+
+.about_card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about_card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  color: var(--color-primary);
+}
+
+
+
+.about_icon {
+  font-size: 1.4rem;
+  margin-bottom: 1em;
+  color: var(--color-primary);
+}
+
+.about_card h5 {
+  font-size: 0.95rem;
+}
+
+.about_card small {
+  font-size: 0.8rem;
+  color: var(--color-light);
+}
+
+.about_content p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .about_container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about_cards {
+    padding-left: 13.5rem;
+
+  }
+
+  .about_card {
+    padding: 1.5rem;
+  }
+
+
+  .about_me {
+    width: 60%;
+    margin: 2rem auto 4rem;
+
+  }
+
+
+
+  .about_content .btn {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 20%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .about_container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about_cards {
+    padding-left: 7.5rem;
+
+  }
+
+  .about_card {
+    padding: 1.5rem;
+  }
+
+
+  .about_me {
+    width: 60%;
+    margin: 2rem auto 4rem;
+
+  }
+
+
+
+  .about_content .btn {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 16%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+
+
+}
