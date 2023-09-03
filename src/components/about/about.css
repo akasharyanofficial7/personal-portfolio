@@ -17,7 +17,7 @@
 .about_me-image {
   border-radius: 3rem;
   overflow: hidden;
-  transform: rotate(1deg);
+  transform: rotate(5deg);
   transition: var(--transition);
   width: 70%;
 }
@@ -86,6 +86,13 @@
 
   .about_card {
     padding: 1.5rem;
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: var(--transition);
+    width: 250px;
   }
 
 
@@ -123,12 +130,21 @@
   }
 
   .about_cards {
-    padding-left: 7.5rem;
+    padding-left: 2.5rem;
 
   }
 
   .about_card {
-    padding: 1.5rem;
+
+
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    transition: var(--transition);
+    width: 200px;
+    height: 140px;
   }
 
 
