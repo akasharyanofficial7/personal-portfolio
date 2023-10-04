@@ -16,7 +16,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Charts templates & infographics in Figna",
+    title: "E-Commmerce UI",
     github: "https://github.com",
     demo: "https://magneta-shop.netlify.app/",
   },
@@ -24,17 +24,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
-  },
-
-  {
-    id: 4,
-    image: IMG4,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    title: "Chat APP using Socket",
+    github: "https://github.com/akasharyanofficial7/socket_chat_app",
+    demo: "#",
   },
 ];
 
