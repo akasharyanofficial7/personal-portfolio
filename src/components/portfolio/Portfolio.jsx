@@ -28,6 +28,13 @@ const data = [
     github: "https://github.com/akasharyanofficial7/socket_chat_app",
     demo: "#",
   },
+  {
+    id: 3,
+    image: IMG4,
+    title: "Chat APP using Socket",
+    github: "https://github.com/akasharyanofficial7/socket_chat_app",
+    demo: "#",
+  },
 ];
 
 const Portfolio = () => {
