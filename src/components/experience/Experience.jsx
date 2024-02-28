@@ -37,7 +37,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
@@ -45,6 +45,14 @@ const Experience = () => {
               <div>
                 <h4>Bootstrap & Tailwind CSS</h4>
                 <small className="text-light">Basic</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Redux ToolKit</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/p1.jpg";
+import IMG1 from "../../assets/p1.png";
 import IMG2 from "../../assets/p2.png";
 import IMG3 from "../../assets/p3.png";
 import IMG4 from "../../assets/p4.jpg";
@@ -9,32 +9,32 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Flight Searching and Ticket",
-    github: "https://github.com/akasharyanofficial7/flightservice1",
-    demo: "#",
+    title: "Online Food Ordering websites using ReactJs and Redux ToolKit",
+    github: "https://github.com/akasharyanofficial7/online-food-",
+    demo: "https://maczooka.onrender.com",
   },
   {
     id: 2,
     image: IMG2,
-    title: "E-Commmerce UI",
-    github: "https://github.com",
-    demo: "https://magneta-shop.netlify.app/",
+    title: "Music Player",
+    github: "https://github.com/akasharyanofficial7/music-player",
+    demo: "https://sseries.onrender.com",
   },
 
   {
     id: 3,
     image: IMG3,
-    title: "Chat APP using Socket",
-    github: "https://github.com/akasharyanofficial7/socket_chat_app",
+    title: "Blog website",
+    github: "https://github.com/akasharyanofficial7/mern-blog",
     demo: "#",
   },
-  {
-    id: 3,
-    image: IMG4,
-    title: "Chat APP using Socket",
-    github: "https://github.com/akasharyanofficial7/socket_chat_app",
-    demo: "#",
-  },
+  // {
+  //   id: 3,
+  //   image: IMG4,
+  //   title: "Chat APP using Socket",
+  //   github: "https://github.com/akasharyanofficial7/socket_chat_app",
+  //   demo: "#",
+  // },
 ];
 
 const Portfolio = () => {
