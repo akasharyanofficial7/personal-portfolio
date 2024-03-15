@@ -1,5 +1,5 @@
 header {
-    height: 150vh;
+    height: 50vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -50,7 +50,7 @@ header {
 .me {
     background: linear-gradient(var (--color-primary), transparent);
     width: 300px;
-    height: 170rem;
+    height: 70rem;
     position: absolute;
     left: calc(50% - 12rem);
     margin-top: 2rem;
@@ -83,13 +83,13 @@ header {
     .me {
         background: linear-gradient(var (--color-primary), transparent);
         width: 40rem;
-        height: 52rem;
+        height: 62rem;
         position: absolute;
         left: calc(50% - 18rem);
     }
 
     header {
-        height: 150vh;
+        height: 50vh;
         padding-top: 7rem;
         overflow: hidden;
     }
@@ -111,14 +111,14 @@ header {
     .me {
         background: linear-gradient(var (--color-primary), transparent);
         width: 20rem;
-        height: 38rem;
+        height: 350px;
         position: absolute;
         left: calc(50% - 10rem);
         position: absolute;
     }
 
     header {
-        height: 150vh;
+        height: 35vh;
         padding-top: 7rem;
         overflow: hidden;
     }

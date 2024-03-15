@@ -8,18 +8,19 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
-  // Step 2: Define state variable for dark mode
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Step 3: Function to handle dark mode toggle
   const handleDarkModeToggle = () => {
-    // Toggle the value of isDarkMode
     setIsDarkMode(!isDarkMode);
   };
 
   return (
     <>
-      <div className={isDarkMode ? "light-mode" : "dark bg-black"}>
+      <div
+        className={
+          isDarkMode ? "light-mode" : "dark bg-gray-300  text-gray-800"
+        }
+      >
         <Header />
         <Nav />
         <About />

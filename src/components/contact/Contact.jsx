@@ -22,13 +22,13 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
+      <h5 className="text-gray-500">Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact_container">
         <div className="contact_options">
-          <article className="contact_option">
-            <MdOutlineEmail className="contact_option-icon" />
+          <article className="contact_option text-gray-500">
+            <MdOutlineEmail className="contact_option-icon " />
             <h4>Email</h4>
             <h5>aryanakasharyan@gmail.com</h5>
             <a
@@ -40,9 +40,9 @@ const Contact = () => {
             </a>
           </article>
 
-          <article className="contact_option">
-            <BsWhatsapp className="contact_option-icon" />
-            <h4>WhatsApp</h4>
+          <article className="contact_option text-gray-500">
+            <BsWhatsapp className="contact_option-icon " />
+            <h4 className=" ">WhatsApp</h4>
             <h5>+ 91 9118283887</h5>
             <a
               href="https://api.whatsapp.com/send?phone=9118283887"

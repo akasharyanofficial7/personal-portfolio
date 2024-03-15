@@ -24,7 +24,7 @@ const Footer = () => {
             <ul className="social_links">
               <li>
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/akash-gupta-41a73a184/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -42,7 +42,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.github.com/"
+                  href="https://github.com/akasharyanofficial7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
