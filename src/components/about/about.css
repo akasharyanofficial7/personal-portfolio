@@ -1,10 +1,14 @@
-.about_container {
+/* .about_container {
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
+} */
+
+section {
+  height: 100vh;
 }
 
-.about_me {
+/* .about_me {
   width: 80%;
   aspect-ratio: 1/1;
   border-radius: 100%;
@@ -178,4 +182,4 @@
   }
 
 
-}
+} */

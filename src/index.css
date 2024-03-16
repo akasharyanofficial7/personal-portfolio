@@ -22,38 +22,13 @@
   --color-primary: #4db5ff;
 
   --transition: all 400ms ease;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  /* --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(255, 255, 255, 0.6); */
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 html {
   scroll-behavior: smooth;
@@ -63,7 +38,32 @@ html {
   display: none;
 }
 
-body {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
@@ -161,102 +161,4 @@ img {
   section>h2 {
     margin-bottom: 2rem;
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Default styles */
-.header_container {
-  transition: background-color 0.5s ease;
-}
-
-/* Dark mode styles */
-
-
-.light-mode {
-  background-color: #1f1f38;
-  color: white;
-}
-
-.bg-black {
-  color: white;
-
-}
-
-/* Light mode styles */
-.black {
-  background-color: #000000;
-  color: #ffffff;
-
-}
-
-.bg {
-  background-color: rgba(0, 128, 128, 0.5);
-  /* Teal color with 50% transparency */
-  color: black;
-  font-weight: 700;
-  padding: 10px 20px;
-  font-size: 14px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  backdrop-filter: blur(10px);
-}
-
-
-/* Button hover effect */
-.bg:hover {
-  background-color: dark rgb(0, 10, 10);
-  /* Darker green on hover */
-}
-
-
-@media screen and (max-width: 1024px) {
-
-  /* Update styles for the button with className "bg" in smaller screens (1024px and below) */
-  .bg {
-    background-color: rgba(0, 128, 128, 0.5);
-    /* New background color for smaller screens */
-    right: 10px;
-    /* Adjust right distance for smaller screens */
-  }
-}
-
-/* Media query for screens with a maximum width of 600px */
-@media screen and (max-width: 600px) {
-
-  /* Update styles for the button with className "bg" in even smaller screens (600px and below) */
-  .bg {
-    background-color: rgba(0, 128, 128, 0.5);
-    /* Another background color for even smaller screens */
-    right: 5px;
-    /* Adjust right distance for even smaller screens */
-
-
-    font-weight: 600;
-    padding: 6px 12px;
-    font-size: 10px;
-  }
-}
+} */
