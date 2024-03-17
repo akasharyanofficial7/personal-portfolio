@@ -22,7 +22,7 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-gray-200 lg:h-screen ">
       <h1 className="text-3xl lg:text-5xl font-bold text-[#4831d4] text-center font-sans pt-20 mb-8">
-        Send me message
+        Send me message!
       </h1>
 
       <h1 className="lg:text-2xl text-lg text-center px-8 lg:px-4 text-[#4c266a]">

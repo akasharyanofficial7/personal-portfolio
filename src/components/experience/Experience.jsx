@@ -15,10 +15,10 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="bg-[#4831d4] py-16 flex flex-col lg:flex-row lg:h-screen"
+      className="bg-purple-800 py-16 flex flex-col lg:flex-row lg:h-screen"
     >
       {/* About */}
-      <div className="w-full lg:w-1/2 px-12 p-10 lg:px-0 lg:order-2  ">
+      <div className="w-full lg:w-1/2 px-12  p-4 lg:px-0 lg:order-2  ">
         <h2 className="font-bold text-[#ccf381]  text-4xl  font-sans pl-20">
           So Far
         </h2>

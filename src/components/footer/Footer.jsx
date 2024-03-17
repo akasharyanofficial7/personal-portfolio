@@ -3,7 +3,7 @@ import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-12 ">
+    <footer className="bg-[#3d155f] text-white  pb-28   px-16 py-12 ">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Us */}
@@ -58,6 +58,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <hr className="border border-solid border-white  mt-28" />
     </footer>
   );
 };

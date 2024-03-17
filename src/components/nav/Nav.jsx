@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import './nav.css'
-import { AiOutlineHome } from 'react-icons/ai'
-import { AiOutlineUserDelete } from 'react-icons/ai'
-import { BsJournalBookmarkFill } from 'react-icons/bs'
-import { RiContactsLine } from 'react-icons/ri'
-import{GiSkills}from 'react-icons/gi'
+import React, { useState } from "react";
+import "./nav.css";
+import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineUserDelete } from "react-icons/ai";
+import { BsJournalBookmarkFill } from "react-icons/bs";
+import { RiContactsLine } from "react-icons/ri";
+import { GiSkills } from "react-icons/gi";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -20,23 +20,22 @@ const Nav = () => {
         onClick={() => handleNavClick("#")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <AiOutlineHome />
+        <AiOutlineHome className=" " />
       </a>
       <a
         href="#about"
         onClick={() => handleNavClick("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <AiOutlineUserDelete />
+        <AiOutlineUserDelete className=" " />
       </a>
       <a
         href="#experience"
         onClick={() => handleNavClick("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <GiSkills/>
+        <GiSkills />
       </a>
-
 
       <a
         href="#portfolio"

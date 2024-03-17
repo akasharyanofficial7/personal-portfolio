@@ -9,10 +9,10 @@ const About = () => {
       className="bg-white flex flex-col lg:flex-row lg:h-screen"
     >
       <div className="w-full lg:w-1/6 px-4  pt-8 lg:pt-0 lg:order-1">
-        <LuSprout className="text-6xl font-thin    text-green-400  hidden  " />
+        <LuSprout className="text-6xl font-thin  text-green-400  hidden  " />
       </div>
       <div className="w-full lg:w-1/2  px-12 p-4   lg:p-10 lg:px-0 lg:order-2">
-        <h2 className="font-bold text-[#4831d4] text-5xl">About</h2>
+        <h2 className="font-bold text-[#4831d4] text-4xl lg:text-5xl">About</h2>
         <p className="mt-4 text-[#4c266a] text-justify">
           A Software Engineer passionate about creating captivating and
           user-friendly web interfaces that enhance the user experience and
@@ -30,7 +30,7 @@ const About = () => {
           <FaRegCircle />
         </div>
 
-        <div className="pb-64 pt-0 h-24 lg:pt-36 pl-24  ">
+        <div className="pb-16  lg:pb-64 pt-0 h-24 lg:pt-36 pl-24  ">
           <img
             src={goingup}
             alt="me"
@@ -39,7 +39,7 @@ const About = () => {
         </div>
       </div>
       <div className="w-full lg:w-1/2 pt-2   px-16 lg:px-0 lg:pt-[300px] lg:order-3">
-        <h2 className="font-bold text-[#4831d4] text-5xl lg:text-5xl">
+        <h2 className="font-bold text-[#4831d4] text-4xl lg:text-5xl">
           Engineering
         </h2>
         <p className="mt-4 text-[#4c266a] pb-8  text-justify">

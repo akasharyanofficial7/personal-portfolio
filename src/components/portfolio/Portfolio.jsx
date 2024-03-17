@@ -5,6 +5,7 @@ import IMG3 from "../../assets/p3.png";
 import IMG4 from "../../assets/p4.avif";
 import IMG5 from "../../assets/portfolio.png";
 
+import goingup from "../../assets/going-up.png";
 const Portfolio = () => {
   const data = [
     {
@@ -47,13 +48,14 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="mt-16 lg:mt-24 lg:h-screen  lg:pb-0 pb-8"
+      className="mt-16 lg:mt-24 lg:h-screen px-8 lg:pb-0 pb-8"
     >
-      <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-500 mb-8">
+      <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-500 mb-8 font-mono">
         My Projects
       </h2>
+      <hr className="border border-solid border-gray-400 my-4" />
 
-      <div className="container grid grid-cols-2 lg:grid-cols-4  pt-4 gap-8">
+      <div className="container grid grid-cols-2 lg:grid-cols-5  pt-4 gap-4 ml-0  lg:ml-16">
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article
@@ -84,13 +86,20 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Live Demo
+                    Live
                   </a>
                 </div>
               </div>
             </article>
           );
         })}
+      </div>
+      <div className="pb-16  lg:pb-64 pt-0 h-24 lg:pt-36 pl-24  ">
+        <img
+          src={goingup}
+          alt="me"
+          className="mt-0 text-[#4831d4] lg:pt-4 lg:pl-80 h-24 pt-4 text-xs font-thin"
+        />
       </div>
     </section>
   );
