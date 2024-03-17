@@ -24,7 +24,7 @@ const Header = () => {
           <img
             src={ladder1}
             alt="me"
-            className="text-xl h-10   lg:h-14  pt-4 font-thin text-green-400 z-20 fixed"
+            className="text-xl h-14   lg:h-16  pt-4 font-thin text-green-400 z-20 fixed"
           />
         </div>
         <div className="container mx-auto px-4 flex-1 text-center relative ">
@@ -59,7 +59,7 @@ const Header = () => {
         <div className="lg:w-1/3 bg-[#ccf381] relative order-2 lg:order-1">
           <div className="me relative h-full">
             <div className="me relative h-full">
-              <div className="w-80 h-80 pb-64 pt-0 lg:w-80 lg:h-72  lg:pt-36 pl-24 lg:pl-28">
+              <div className="w-80 h-80 pb-64 pt-0 lg:w-80 lg:h-72  lg:pt-36 pl-20  lg:pl-28">
                 <img
                   src={ME}
                   alt="me"
