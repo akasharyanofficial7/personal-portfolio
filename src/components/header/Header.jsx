@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { FaAlignRight } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Modal } from "flowbite-react";
 import "./header.css";
 import CTA from "./CTA";
 import { MdOutlineEmail } from "react-icons/md";
 import { SiLeetcode } from "react-icons/si";
-
 import ME from "../../assets/meme.png";
 import ladder1 from "../../assets/ladder1.png";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
@@ -56,6 +55,7 @@ const Header = () => {
           </div>
         </div>
 
+        {/* Sidebar content */}
         <div className="lg:w-1/3 bg-[#ccf381] relative order-2 lg:order-1">
           <div className="me relative h-full">
             <div className="me relative h-full">
@@ -74,19 +74,26 @@ const Header = () => {
 
             {/* Toggle icon */}
             <button
-              className="top-12 right-10   lg:top-20  lg:right-20 transform-translate-y-1/2 bg-transparent text-center z-20 fixed "
+              className="top-12 right-10  lg:top-20  lg:right-20 transform-translate-y-1/2 bg-transparent text-center z-20 fixed "
               onClick={toggleCard}
               aria-label="Toggle Modal"
             >
-              <FaAlignRight
-                size={30}
-                className="text-indigo-950  font-thin text-2xl  lg:text-3xl"
-              />
+              {isOpen ? (
+                <FaTimes
+                  size={30}
+                  className="text-indigo-950  font-thin text-2xl  lg:text-xl  "
+                />
+              ) : (
+                <FaBars
+                  size={30}
+                  className="text-indigo-950  font-thin text-2xl  lg:text-xl  "
+                />
+              )}
             </button>
 
             {isOpen && (
               <div className="absolute top-0 left-0 transform-translate-x-1/2  ">
-                <div className=" ">
+                <div>
                   <Modal
                     show={isOpen}
                     onClose={() => setIsOpen(false)}
@@ -95,12 +102,19 @@ const Header = () => {
                   >
                     <Modal.Header className="text-gray-600 bg-[#ffffff] " />
                     <Modal.Body className="text-gray-600 ">
-                      <div className="footer text-center bg-white text-black py-4">
-                        <div className="mx-auto">
+                      <div className="footer text-center bg-white text-black ">
+                        <div className="">
                           <h3 className="text-gray-600 font-sans text-xl font-semibold pb-4">
-                            Follow Us
+                            <img
+                              src={ladder1}
+                              alt="me"
+                              className=" h-6 pr-2 lg:h-8  font-thin "
+                            />
+                            <div className="flex  flex-row  justify-center text-sm ">
+                              Follow Us
+                            </div>
                           </h3>
-                          <ul className="text-blue-500 text-2xl flex justify-between px-6">
+                          <ul className="text-blue-500 text-2xl flex justify-between px-10  pt-4">
                             <li>
                               <a
                                 href="https://www.linkedin.com/in/akash-gupta-41a73a184/"
@@ -140,20 +154,26 @@ const Header = () => {
                             </li>
                           </ul>
                         </div>
-                        <article className="text-gray-500 mx-auto ">
+                        <hr className="border border-solid border-gray-600 mt-12" />
+                        <article className=" mx-auto  flex  flex-row justify-between px-6 lg:px-8">
                           <a
                             href="mailto:aryanakasharyan@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="hover:text-blue-600 font-mono"
+                            className="hover:text-yellow-400 text-blue-600  text-2xl mt-1"
                           >
-                            {/* <MdOutlineEmail className="hover:bg-yellow-400 " /> */}
-                            aryanakasharyan@gmail.com
+                            <MdOutlineEmail />
                           </a>
+                          <a
+                            href="mailto:aryanakasharyan@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-600  font-serif  text-sm  lg:text-lg text-gray-500 "
+                          ></a>
+                          <h3 className="text-gray-600 font-sans text-xl   font-semibold ">
+                            <CTA />
+                          </h3>
                         </article>
-                        <h3 className="text-gray-600 font-sans text-xl font-semibold my-4">
-                          <CTA />
-                        </h3>
                       </div>
                     </Modal.Body>
                   </Modal>
