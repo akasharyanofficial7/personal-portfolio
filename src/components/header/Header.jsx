@@ -98,9 +98,9 @@ const Header = () => {
                     show={isOpen}
                     onClose={() => setIsOpen(false)}
                     popup
-                    className="mt-24 shadow-zinc-50 bg-[#ffffff] rounded-sm lg:ml-[1000px] ml-[60px]  h-[250px] lg:w-[330px] w-[260px] lg:h-[300px]"
+                    className="mt-24 shadow-zinc-50 rounded-md bg-[#ffffff]   lg:ml-[1000px] ml-[60px]  h-[250px] lg:w-[330px] w-[260px] lg:h-[300px]"
                   >
-                    <Modal.Header className="text-gray-600 bg-[#ffffff] " />
+                    <Modal.Header className="text-gray-600 bg-[#ffffff]" />
                     <Modal.Body className="text-gray-600 ">
                       <div className="footer text-center bg-white text-black ">
                         <div className="">
@@ -114,8 +114,8 @@ const Header = () => {
                               Follow Us
                             </div>
                           </h3>
-                          <ul className="text-blue-500 text-2xl flex justify-between px-10  pt-4">
-                            <li>
+                          <ul className="text-blue-500 text-lg flex justify-between px-4  lg:px-10 pt-4">
+                            <li className="shadow-lg rounded-md  bg-slate-300 p-2">
                               <a
                                 href="https://www.linkedin.com/in/akash-gupta-41a73a184/"
                                 target="_blank"
@@ -124,7 +124,7 @@ const Header = () => {
                                 <FaLinkedin className="hover:text-yellow-400" />
                               </a>
                             </li>
-                            <li>
+                            <li className="shadow-lg rounded-md  bg-slate-300 p-2">
                               <a
                                 href="https://www.twitter.com/"
                                 target="_blank"
@@ -133,21 +133,21 @@ const Header = () => {
                                 <FaTwitter className="hover:text-yellow-400" />
                               </a>
                             </li>
-                            <li>
+                            <li className="shadow-lg rounded-md  bg-slate-300 p-2">
                               <a
                                 href="https://github.com/akasharyanofficial7"
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
-                                <FaGithub className="hover:text-yellow-400" />
+                                <FaGithub className="hover:text-yellow-400 text-black" />
                               </a>
                             </li>
-                            <li>
+                            <li className="shadow-lg rounded-md  bg-slate-300 p-2">
                               <a
                                 href="https://leetcode.com/problemset/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="hover:text-yellow-400"
+                                className="hover:text-yellow-500 text-yellow-400"
                               >
                                 <SiLeetcode />
                               </a>
